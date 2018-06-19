@@ -15,10 +15,10 @@ export default class HomeBanner extends React.Component {
             
             <div className="home-banner-link">
               <div className="link">
-                <a target="_blank" rel="noopener noreferrer" href="">Github</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/ZF267/zafoo-technique-blog">Github</a>
               </div>
               <div className="link">
-                <a target="_blank" rel="noopener noreferrer" href="">Online resume</a>
+                <a target="_blank" rel="noopener noreferrer" href="./Resume--Zhefu Han_network.pdf">Online resume</a>
               </div>
               <div className="link">
                 <a target="_blank" rel="noopener noreferrer" href="">Photo Albums</a>

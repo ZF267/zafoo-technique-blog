@@ -8,9 +8,9 @@ const receiveIssues = json => ({ type: RECEIVE_ISSUES, posts: json });
 function fetchIssues() {
   return (dispatch) => {
     dispatch(requestIssues());
-    return axios.get('https://api.github.com/repos/axuebin/articles/issues', {
+    return axios.get('https://api.github.com/repos/ZF267/articles/issues', {
       params: {
-        creator: 'axuebin',
+        creator: 'ZF267',
         labels: 'blog',
       },
     }).then(response => dispatch(receiveIssues(response.data))).catch(e => console.log(e));

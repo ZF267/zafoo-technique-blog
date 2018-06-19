@@ -16,9 +16,9 @@ export default class HomeCardArea extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('https://api.github.com/repos/axuebin/articles/issues', {
+    axios.get('https://api.github.com/repos/ZF267/articles/issues', {
       params: {
-        creator: 'axuebin',
+        creator: 'ZF267',
         labels: 'blog',
       },
     }).then((response) => {
